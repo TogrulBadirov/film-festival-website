@@ -26,7 +26,6 @@ function App() {
       <AudienceChoice/>
       <PopularMovies/>
       <Magazine/>
-      {/* <Speakers/> */}
       <Tickets/>
       <Brends/>
     </main>
