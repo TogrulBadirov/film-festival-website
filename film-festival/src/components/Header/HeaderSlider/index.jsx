@@ -6,6 +6,8 @@ import { Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 import './index.scss';
 
 // import required modules
@@ -24,6 +26,8 @@ export default function HeaderSlider() {
         pagination={{
           clickable: true,
         }}
+        
+        
         modules={[EffectFade, Navigation, Pagination,Autoplay]}
         className="mySwiper"
       >
