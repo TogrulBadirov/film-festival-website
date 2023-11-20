@@ -1,0 +1,52 @@
+#Speakers{
+    width: calc(100% - 60px);
+    margin-left: 60px;
+    position: relative;
+    padding: 70px;
+    display: flex;
+    justify-content: start;
+    .Speakers-container{
+        width: 100%;
+        padding-top: 50px;
+        margin: 0 20px;
+        display: flex;
+        h2{
+            text-transform: uppercase;
+        }
+        .Speaker-cards{
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 100%;
+        }
+        .Speaker-card{
+            margin: 10px;
+            color: white;
+            max-width: 300px;
+            height: 400px;
+            position: relative;
+            img{
+                max-width: 300px;
+                position: absolute;
+            }
+            // h4,p{
+            //     display: block;
+            //     position: relative;
+            //     text-align: center;
+            // }
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:997px) {
+    #Speakers{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    #Speakers{
+        width: 100%;
+        margin-left: 0;
+    }
+}

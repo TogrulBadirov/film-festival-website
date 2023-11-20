@@ -1,0 +1,56 @@
+{
+    "Movies": [
+        {
+            "id": 1,
+            "name": "COUNTREY ",
+            "price" : 21,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-9.jpg",
+            "category" : "comedy"
+        },
+        {
+            "id": 2,
+            "name": "ZPERFECT EDTION",
+            "price" : 51,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-8.jpg",
+            "category" : "documentary"
+        },
+        {
+            "id": 3,
+            "name": "GONE",
+            "price" : 51,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-7.jpg",
+            "category" : "drama"
+        },
+        {
+            "id": 4,
+            "name": "BALUNGAN KERE",
+            "price" : 31,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-6.jpg",
+            "category" : "fantasy"
+        },
+        {
+            "id": 5,
+            "name": "HOME",
+            "price" : 36,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-5.jpg",
+            "category" : "romance"
+        },
+        {
+            "id": 6,
+            "name": "DOUBLE LIFE",
+            "price" : 23,
+            "image": "https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/product-4.jpg",
+            "category" : "sci-fi"
+        }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

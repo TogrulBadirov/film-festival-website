@@ -1,0 +1,31 @@
+#FilmPreviews{
+    width: calc(100% - 60px);
+    margin-left: 60px;
+    position: relative;
+    padding: 70px;
+    
+    .col-12 {
+        margin-bottom: 20px;
+      }
+      .custom-card {
+        background-color: #f8f9fa; 
+        border: 1px solid #dee2e6; 
+        img{
+            max-width: 100%;
+        }
+      }
+}
+
+@media screen and (min-width:769px) and (max-width:997px) {
+    #FilmPreviews{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    #FilmPreviews{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+}

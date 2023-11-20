@@ -1,0 +1,60 @@
+#PopularMovies{
+    width: calc(100% - 60px);
+    margin-left: 60px;
+    position: relative;
+    padding: 70px 70px 150px;
+    background-color: black;
+    color: white;
+    display: grid;
+    flex-direction: column;
+    .PopularMovies-filter{
+        justify-self: end;
+        margin: 30px 0;
+        button{
+            background-color: transparent;
+            color: white;
+            outline: none;
+            border: none;
+            padding: 0 10px;
+            margin: 0 10px;
+            border-right: 1px solid #4a4a4a;
+            border-left: 1px solid #4a4a4a;
+        }
+    }
+    .film-card-container{
+        .row{
+        
+        justify-content: center;
+        align-items: center;
+        
+        .film-card{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+
+        }
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:997px) {
+    #PopularMovies{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    #PopularMovies{
+        width: 100%;
+        margin-left: 0;
+        .col-12{
+            display: flex;
+            justify-content: center;
+        }
+        .film-card{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+#FestivalProgramme{
+    background-color: #EDEDED;
+    width: calc(100% - 60px);
+    margin-left: 60px;
+    position: relative;
+    padding: 70px;
+    display: grid;
+    table{
+        justify-content: center;
+        border-collapse:inherit ; 
+        border-spacing: 0 2em;
+        tr{
+            border-bottom: 1px solid #959494;
+            td{
+            padding: 15px 20px;
+            border-bottom: 1px solid #959494;
+                button{
+                    padding: 5px;
+                    margin: 0 10px;
+                    transition: 0.4s;
+                }
+                button:hover{
+                    background-color: black;
+                    color: white;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            td:nth-child(1),
+            td:nth-child(3){
+                font-size: 18px;
+                font-weight: 500;
+            }
+            td:nth-child(2){
+                font-size: 25px;
+                font-weight: 500;
+            }
+            td:not(:first-child){
+                border-left: 1px solid #959494;
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:997px) {
+    #FestivalProgramme{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    #FestivalProgramme{
+        width: 100%;
+        margin-left: 0;
+        table{
+            tr{
+                display: flex;
+            flex-wrap: wrap;
+            }
+        }
+    }
+}
